@@ -4,6 +4,7 @@ import Card from './component/Card';
 import { Outlet } from 'react-router-dom';
 import Header from './component/Header';
 import Footer from './component/Footer';
+import ColorChanger from './component/ColorChanger';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
      <Card name="Anamika Pandey" tech="FullStack Developer"/>
     </div>
     <Footer/>
+    <ColorChanger/>
     </div>
     </>
   )
